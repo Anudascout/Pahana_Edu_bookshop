@@ -15,6 +15,10 @@ public class InvoiceModel {
     public InvoiceModel() {
     }
 
+
+
+
+
     public InvoiceModel(int id, int userId, int staffId, String date, double discount, int qty, double total, double paid, double balance, double change) {
         this.id = id;
         this.userId = userId;

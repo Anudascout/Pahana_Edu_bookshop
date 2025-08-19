@@ -24,6 +24,8 @@ public class InvoiceDAO {
             stmt.setDouble(7, bill.getBalance());
             stmt.setDouble(8, bill.getChange());
 
+
+
             int rows = stmt.executeUpdate();
 
             if (rows > 0) {

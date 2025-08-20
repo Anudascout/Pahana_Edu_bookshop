@@ -28,7 +28,7 @@
         </a>
 
         <!-- Register Staff -->
-        <a href="${pageContext.request.contextPath}/addEmployee.jsp"
+        <a href="${pageContext.request.contextPath}/admin/addEmployee.jsp"
            class="bg-white shadow-md rounded-xl p-6 text-center border border-gray-200 hover:shadow-lg hover:border-[#4CAF50] transition">
             <h3 class="text-lg font-semibold text-gray-800 mb-2">Register Staff</h3>
             <p class="text-sm text-gray-600">Add a new staff member.</p>
@@ -40,9 +40,6 @@
             <h3 class="text-lg font-semibold text-gray-800 mb-2">Logout</h3>
             <p class="text-sm text-gray-600">End your session securely.</p>
         </a>
-
-
-        
 
     </div>
 </main>
